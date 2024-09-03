@@ -1,0 +1,14 @@
+<div id="<%= dom_id snippet %>" class="w-full p-4">
+  <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+    <div class="p-4">
+      <div class="flex items-center justify-between">
+        <span class="text-gray-200 text-xl font-bold"><%= snippet.title %></span>
+        <button id="copyButton" class="px-4 py-2 text-white bg-teal-500 rounded hover:bg-teal-600 focus:outline-none focus:ring focus:ring-red-400">Copy</button>
+      </div>
+    </div>
+
+    <div class="px-3 py-2">
+      <pre class="language-javascript"><code class="text-sm"><%= snippet.code %></code></pre>
+    </div>
+  </div>
+</div>
