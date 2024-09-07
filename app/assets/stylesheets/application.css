@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+.select2-container .select2-selection--multiple {
+    background-color: #f7fafc; /* Tailwind's 'bg-gray-50' */
+    border-color: #cbd5e0; /* Tailwind's 'border-gray-400' */
+    border-radius: 0.375rem; /* Tailwind's 'rounded-md' */
+    padding: 0.5rem; /* Tailwind padding */
+    box-shadow: none; /* Remove default box shadow */
+}
+
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    background-color: #3182ce; /* Tailwind's 'bg-blue-600' */
+    color: white; /* White text for tags */
+    border: none;
+}

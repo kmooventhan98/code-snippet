@@ -67,3 +67,5 @@ group :test do
 end
 
 gem "tailwindcss-rails", "~> 2.7"
+
+gem "select2-rails", "~> 4.0"

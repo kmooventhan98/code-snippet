@@ -202,6 +202,7 @@ GEM
     rexml (3.3.6)
       strscan
     rubyzip (2.3.2)
+    select2-rails (4.0.13)
     selenium-webdriver (4.24.0)
       base64 (~> 0.2)
       logger (~> 1.4)
@@ -265,6 +266,7 @@ DEPENDENCIES
   jbuilder
   puma (>= 5.0)
   rails (~> 7.1.4)
+  select2-rails (~> 4.0)
   selenium-webdriver
   sprockets-rails
   sqlite3 (>= 1.4)
