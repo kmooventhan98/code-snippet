@@ -65,6 +65,6 @@ class SnippetsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def snippet_params
-      params.require(:snippet).permit(:title, :code)
+      params.require(:snippet).permit(:title, :code, tag_ids: [])
     end
 end
